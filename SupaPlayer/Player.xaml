@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="Player" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="85*"/>
+            <RowDefinition Height="15*"/>
+        </Grid.RowDefinitions>
+        <MediaElement x:Name="MediaScreen" HorizontalAlignment="Left" Height="368" VerticalAlignment="Top" Width="797" Margin="0,0,0,0"/>
+        <Button x:Name="PlayPause" Content="Play" Margin="360,15,359,10" Grid.Row="1"/>
     </Grid>
 </Window>
